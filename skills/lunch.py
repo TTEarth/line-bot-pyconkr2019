@@ -23,7 +23,7 @@ foods = ['자장면', '짬뽕', '탕수육', '잡채', '떡볶이', '라면', '�
 @add_skill(r'점심')
 def get_lunch(message):
     food = random.choice(foods)
-    presenter.remove(food)
+    foods.remove(food)
     return LunchSendMessage(
         title='점심',
         lunch=food
