@@ -33,6 +33,7 @@ def get_menu(message):
                 MessageAction(label='장소', text='장소'),
                 MessageAction(label='프로그램', text='프로그램'),
                 MessageAction(label='점심', text='점심'),
+                MessageAction(label='지하철', text='지하철'),
                 URIAction(label='홈페이지', uri='https://www.pycon.kr/')
             ]
         )
